@@ -105,7 +105,7 @@ def main():
             print()
         else:
             break
-    print(offense1+" offense by Zip Code")
+    print(offense1, " offense by Zip Code")
     print("Zip Code\t\t\t# Offenses")
     print("==========================================")
     for k,v in offense[offense1].items():
